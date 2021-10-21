@@ -1,0 +1,36 @@
+Within section description 
+	<heading>SUMMARY OF THE INVENTION</heading>
+
+It might be advisable to extract information from there. 
+
+Within claims section 
+<claims format="original" lang="en" id="claim_en">
+<claim num="1">
+
+can be infromative
+
+All the xml consist of four section of which last 3 seems infromative
+1) bibliographic
+2) abstract 
+3) description 
+4) claims 	
+
+The above rule is valid for large rar files which are more that 450 mb in size
+
+aufull_201828_ongoing_1_20000 (22mb) has only 1) bibliographic and / or 2) abstract 
+
+
+aufull_201828_back_1_20000 - has only 1) bibliographic
+
+atfull_201828_ongoing_1_20000 (36 mb) has 1) bibliographic and / or the other 2,3 
+
+
+	<field name="bibliographic-data" type="text_general" indexed="false" stored="false"/>
+	<field name="abstract" type="text_general" indexed="true" stored="true"/>
+	<field name="description" type="text_general" indexed="true" stored="true"/>
+	<field name="claims" type="text_general" indexed="true" stored="true"/>
+	
+	
+	
+	java -Dc="patent_repo" -jar bin/post.jar D:/Masters/Jobs/Internship/Companies/Chemovator/Data/sample_data/AU2011257555A1.xml
+	

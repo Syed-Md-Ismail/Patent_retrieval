@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<add>
+  <doc>
+    <field name="id">/en/45_2006</field>
+    <field name="directed_by">Gary Lennon</field>
+    <field name="initial_release_date">2006-11-30</field>
+    <field name="genre">Black comedy</field>
+    <field name="genre">Thriller</field>
+    <field name="genre">Psychological thriller</field>
+    <field name="genre">Indie film</field>
+    <field name="genre">Action Film</field>
+    <field name="genre">Crime Thriller</field>
+    <field name="genre">Crime Fiction</field>
+    <field name="genre">Drama</field>
+    <field name="name">.45</field>
+  </doc>
+  <doc>
+    <field name="id">/en/9_2005</field>
+    <field name="directed_by">Shane Acker</field>
+    <field name="initial_release_date">2005-04-21</field>
+    <field name="genre">Computer Animation</field>
+    <field name="genre">Animation</field>
+    <field name="genre">Apocalyptic and post-apocalyptic fiction</field>
+    <field name="genre">Science Fiction</field>
+    <field name="genre">Short Film</field>
+    <field name="genre">Thriller</field>
+    <field name="genre">Fantasy</field>
+    <field name="name">9</field>
+  </doc>
+  <doc>
+    <field name="id">/en/69_2004</field>
+    <field name="directed_by">Lee Sang-il</field>
+    <field name="initial_release_date">2004-07-10</field>
+    <field name="genre">Japanese Movies</field>
+    <field name="genre">Drama</field>
+    <field name="name">69</field>
+  </doc>
+  <doc>
+    <field name="id">/en/300_2007</field>
+    <field name="directed_by">Zack Snyder</field>
+    <field name="initial_release_date">2006-12-09</field>
+    <field name="genre">Epic film</field>
+    <field name="genre">Adventure Film</field>
+    <field name="genre">Fantasy</field>
+    <field name="genre">Action Film</field>
+    <field name="genre">Historical fiction</field>
+    <field name="genre">War film</field>
+    <field name="genre">Superhero movie</field>
+    <field name="genre">Historical Epic</field>
+    <field name="name">300</field>
+  </doc>
+  <doc>
+    <field name="id">/en/2046_2004</field>
+    <field name="directed_by">Wong Kar-wai</field>
+    <field name="initial_release_date">2004-05-20</field>
+    <field name="genre">Romance Film</field>
+    <field name="genre">Fantasy</field>
+    <field name="genre">Science Fiction</field>
+    <field name="genre">Drama</field>
+    <field name="name">2046</field>
+  </doc>
+</add>

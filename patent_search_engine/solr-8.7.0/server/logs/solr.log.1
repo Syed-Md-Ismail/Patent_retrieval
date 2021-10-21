@@ -1,0 +1,211 @@
+2021-10-16 20:51:36.180 INFO  (main) [   ] o.e.j.u.log Logging initialized @2170ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-16 20:51:36.288 WARN  (main) [   ] o.e.j.x.XmlConfiguration Ignored arg: <Arg name="threadpool">
+    <New id="threadpool" class="com.codahale.metrics.jetty9.InstrumentedQueuedThreadPool"><Arg name="registry">
+        <Call id="solrJettyMetricRegistry" name="getOrCreate" class="com.codahale.metrics.SharedMetricRegistries"><Arg>solr.jetty</Arg></Call>
+      </Arg></New>
+  </Arg>
+2021-10-16 20:51:36.467 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 15.0.1+9-18
+2021-10-16 20:51:36.499 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/Masters/Jobs/Internship/Companies/Chemovator/solr-8.7.0/server/contexts/] at interval 0
+2021-10-16 20:51:37.333 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-10-16 20:51:37.347 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-10-16 20:51:37.347 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-10-16 20:51:37.351 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-10-16 20:51:37.456 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-10-16 20:51:37.464 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.7.0
+2021-10-16 20:51:37.464 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-10-16 20:51:37.464 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0
+2021-10-16 20:51:37.465 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-10-16T20:51:37.465433500Z
+2021-10-16 20:51:37.491 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr
+2021-10-16 20:51:37.500 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\solr.xml
+2021-10-16 20:51:37.657 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb, but no JMX reporters were configured - adding default JMX reporter.
+2021-10-16 20:51:38.688 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-10-16 20:51:38.979 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@7026b7ee[provider=null,keyStore=null,trustStore=null]
+2021-10-16 20:51:38.980 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@7026b7ee[provider=null,keyStore=null,trustStore=null]
+2021-10-16 20:51:39.224 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@45e1aa48[provider=null,keyStore=null,trustStore=null]
+2021-10-16 20:51:39.224 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@45e1aa48[provider=null,keyStore=null,trustStore=null]
+2021-10-16 20:51:39.305 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-10-16 20:51:39.496 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-10-16 20:51:39.499 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-10-16 20:51:39.609 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-16 20:51:39.610 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-16 20:51:39.617 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-16 20:51:39.672 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr
+2021-10-16 20:51:39.672 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [films, patent_repo]
+2021-10-16 20:51:39.752 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.7.0
+2021-10-16 20:51:39.752 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.7.0
+2021-10-16 20:51:40.078 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.IndexSchema Schema name=default-config
+2021-10-16 20:51:40.078 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.IndexSchema Schema name=default-config
+2021-10-16 20:51:40.406 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@61bcd567{/solr,file:///D:/Masters/Jobs/Internship/Companies/Chemovator/solr-8.7.0/server/solr-webapp/webapp/,AVAILABLE}{D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server/solr-webapp/webapp}
+2021-10-16 20:51:40.423 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@57ea113a{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-10-16 20:51:40.424 INFO  (main) [   ] o.e.j.s.Server Started @6417ms
+2021-10-16 20:51:40.833 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-10-16 20:51:40.834 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-10-16 20:51:41.039 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\films, trusted=true
+2021-10-16 20:51:41.039 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.CoreContainer Creating SolrCore 'patent_repo' using configuration from instancedir D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\patent_repo, trusted=true
+2021-10-16 20:51:41.081 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.films' (registry 'solr.core.films') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-16 20:51:41.081 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.patent_repo' (registry 'solr.core.patent_repo') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-16 20:51:41.100 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.SolrCore [[patent_repo] ] Opening new SolrCore at [D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\patent_repo], dataDir=[D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\patent_repo\data\]
+2021-10-16 20:51:41.100 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\films], dataDir=[D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\films\data\]
+2021-10-16 20:51:42.016 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-10-16 20:51:42.016 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-10-16 20:51:42.016 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-10-16 20:51:42.016 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-10-16 20:51:42.034 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-10-16 20:51:42.034 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-10-16 20:51:42.036 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-10-16 20:51:42.036 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-10-16 20:51:42.188 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\patent_repo\conf
+2021-10-16 20:51:42.216 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-10-16 20:51:42.228 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-10-16 20:51:42.250 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-10-16 20:51:42.259 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1713810966848733184
+2021-10-16 20:51:42.268 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-16 20:51:42.268 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-10-16 20:51:42.278 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Masters\Jobs\Internship\Companies\Chemovator\solr-8.7.0\server\solr\films\conf
+2021-10-16 20:51:42.280 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-10-16 20:51:42.280 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-10-16 20:51:42.283 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-10-16 20:51:42.284 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.SolrCore [patent_repo]  Registered new searcher autowarm time: 0 ms
+2021-10-16 20:51:42.299 INFO  (searcherExecutor-17-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-16 20:51:42.299 INFO  (searcherExecutor-17-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-10-16 20:51:42.303 INFO  (searcherExecutor-17-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films]  Registered new searcher autowarm time: 0 ms
+2021-10-16 20:51:45.466 INFO  (qtp1499840045-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=50
+2021-10-16 20:55:04.798 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 89
+2021-10-16 20:55:04.816 INFO  (qtp1499840045-20) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={commit=true}{commit=} 0 7
+2021-10-16 20:55:20.708 INFO  (qtp1499840045-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634417720489} status=0 QTime=6
+2021-10-16 20:55:20.735 INFO  (qtp1499840045-24) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634417720673} status=0 QTime=22
+2021-10-16 20:55:20.744 INFO  (qtp1499840045-27) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634417720674} status=0 QTime=18
+2021-10-16 20:55:20.778 INFO  (qtp1499840045-23) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634417720492&ts=1634417720492} status=503 QTime=4
+2021-10-16 20:55:20.901 INFO  (qtp1499840045-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634417720492} status=0 QTime=195
+2021-10-16 20:55:20.908 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634417720673} status=0 QTime=167
+2021-10-16 20:55:38.429 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 10
+2021-10-16 20:55:38.447 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 7
+2021-10-16 20:55:38.457 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 2
+2021-10-16 20:55:38.468 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 3
+2021-10-16 20:55:38.479 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 4
+2021-10-16 20:55:38.490 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 3
+2021-10-16 20:55:38.518 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 18
+2021-10-16 20:55:38.530 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 3
+2021-10-16 20:55:38.541 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 3
+2021-10-16 20:55:38.552 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 2
+2021-10-16 20:55:38.565 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 7
+2021-10-16 20:55:38.575 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 4
+2021-10-16 20:55:38.589 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 6
+2021-10-16 20:55:38.600 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 2
+2021-10-16 20:55:38.605 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.612 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 1
+2021-10-16 20:55:38.619 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.625 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.631 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 1
+2021-10-16 20:55:38.638 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.644 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.651 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.657 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 0
+2021-10-16 20:55:38.663 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 1
+2021-10-16 20:55:38.671 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={commit=true}{commit=} 0 2
+2021-10-16 20:55:45.852 INFO  (qtp1499840045-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634417745717} status=0 QTime=1
+2021-10-16 20:55:45.857 INFO  (qtp1499840045-27) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634417745820} status=0 QTime=1
+2021-10-16 20:55:45.869 INFO  (qtp1499840045-25) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634417745821} status=0 QTime=6
+2021-10-16 20:55:45.887 INFO  (qtp1499840045-20) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634417745718&ts=1634417745718} status=503 QTime=1
+2021-10-16 20:55:46.044 INFO  (qtp1499840045-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634417745718} status=0 QTime=192
+2021-10-16 20:55:46.054 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634417745821} status=0 QTime=179
+2021-10-16 21:05:27.970 INFO  (qtp1499840045-18) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{add=[AU2011257580A1 (1713811832586633216)]} 0 88
+2021-10-16 21:05:28.176 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-16 21:05:28.185 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.SolrCore [patent_repo]  Registered new searcher autowarm time: 1 ms
+2021-10-16 21:05:28.191 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={commit=true}{commit=} 0 213
+2021-10-16 21:05:34.926 INFO  (qtp1499840045-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634418334596} status=0 QTime=2
+2021-10-16 21:05:34.943 INFO  (qtp1499840045-27) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634418334893} status=0 QTime=2
+2021-10-16 21:05:34.948 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634418334894} status=0 QTime=7
+2021-10-16 21:05:34.965 INFO  (qtp1499840045-49) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634418334598&ts=1634418334598} status=503 QTime=1
+2021-10-16 21:05:35.055 INFO  (qtp1499840045-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634418334598} status=0 QTime=128
+2021-10-16 21:05:35.103 INFO  (qtp1499840045-50) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634418334893} status=0 QTime=140
+2021-10-16 21:05:40.353 INFO  (qtp1499840045-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634418334596} status=0 QTime=0
+2021-10-16 21:05:40.376 INFO  (qtp1499840045-20) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1634418334893} status=0 QTime=9
+2021-10-16 21:05:40.421 INFO  (qtp1499840045-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634418334598} status=0 QTime=67
+2021-10-16 21:05:45.019 INFO  (qtp1499840045-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634418334596} status=0 QTime=0
+2021-10-16 21:05:45.088 INFO  (qtp1499840045-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634418334598} status=0 QTime=69
+2021-10-16 21:05:47.811 INFO  (qtp1499840045-48) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/select params={q=*:*&_=1634418344943} hits=1 status=0 QTime=53
+2021-10-16 21:06:28.654 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{add=[AU2011257580A1 (1713811896289722368)]} 0 12
+2021-10-16 21:06:28.894 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-16 21:06:28.902 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.SolrCore [patent_repo]  Registered new searcher autowarm time: 0 ms
+2021-10-16 21:06:28.914 INFO  (qtp1499840045-48) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={commit=true}{commit=} 0 247
+2021-10-16 21:06:38.498 INFO  (qtp1499840045-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634418334596} status=0 QTime=0
+2021-10-16 21:06:38.505 INFO  (qtp1499840045-19) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634418334893} status=0 QTime=1
+2021-10-16 21:06:38.508 INFO  (qtp1499840045-25) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634418334894} status=0 QTime=5
+2021-10-16 21:06:38.508 INFO  (qtp1499840045-24) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634418334598&ts=1634418334598} status=503 QTime=0
+2021-10-16 21:06:38.591 INFO  (qtp1499840045-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634418334598} status=0 QTime=89
+2021-10-16 21:06:38.596 INFO  (qtp1499840045-48) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634418334893} status=0 QTime=90
+2021-10-16 21:06:41.172 INFO  (qtp1499840045-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634418400924} status=0 QTime=1
+2021-10-16 21:06:41.180 INFO  (qtp1499840045-23) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634418401144} status=0 QTime=2
+2021-10-16 21:06:41.187 INFO  (qtp1499840045-25) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634418401145} status=0 QTime=6
+2021-10-16 21:06:41.204 INFO  (qtp1499840045-48) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634418400925&ts=1634418400925} status=503 QTime=1
+2021-10-16 21:06:41.341 INFO  (qtp1499840045-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634418400925} status=0 QTime=167
+2021-10-16 21:06:41.359 INFO  (qtp1499840045-46) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634418401144} status=0 QTime=171
+2021-10-16 21:06:45.301 INFO  (qtp1499840045-24) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{add=[AU2011257580A1 (1713811913750609920)]} 0 7
+2021-10-16 21:06:45.427 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-16 21:06:45.430 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.SolrCore [patent_repo]  Registered new searcher autowarm time: 0 ms
+2021-10-16 21:06:45.436 INFO  (qtp1499840045-46) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={commit=true}{commit=} 0 126
+2021-10-16 21:06:47.522 INFO  (qtp1499840045-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634418407443} status=0 QTime=0
+2021-10-16 21:06:47.523 INFO  (qtp1499840045-48) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634418407513} status=0 QTime=0
+2021-10-16 21:06:47.527 INFO  (qtp1499840045-25) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634418407514} status=0 QTime=3
+2021-10-16 21:06:47.531 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634418407443&ts=1634418407443} status=503 QTime=0
+2021-10-16 21:06:47.600 INFO  (qtp1499840045-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634418407443} status=0 QTime=77
+2021-10-16 21:06:47.607 INFO  (qtp1499840045-46) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634418407513} status=0 QTime=77
+2021-10-17 09:18:17.424 INFO  (qtp1499840045-53) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={}{} 0 240
+2021-10-17 09:18:17.469 ERROR (qtp1499840045-53) [   x:patent_repo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unexpected character ' ' (code 32) (missing name?)
+ at [row,col {unknown-source}]: [162,4005]
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:192)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:214)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2627)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:795)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:568)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:415)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:345)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1596)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:590)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.InetAccessHandler.handle(InetAccessHandler.java:177)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:322)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character ' ' (code 32) (missing name?)
+ at [row,col {unknown-source}]: [162,4005]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.StreamScanner.parseFullName(StreamScanner.java:1931)
+	at com.ctc.wstx.sr.StreamScanner.parseEntityName(StreamScanner.java:2057)
+	at com.ctc.wstx.sr.StreamScanner.fullyResolveEntity(StreamScanner.java:1525)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromTree(BasicStreamReader.java:2748)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1073)
+	at org.apache.solr.handler.loader.XMLLoader.readDoc(XMLLoader.java:416)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:262)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:190)
+	... 40 more
+
+2021-10-17 09:18:17.609 INFO  (qtp1499840045-27) [   x:patent_repo] o.a.s.u.p.LogUpdateProcessorFactory [patent_repo]  webapp=/solr path=/update params={commit=true}{commit=} 0 20

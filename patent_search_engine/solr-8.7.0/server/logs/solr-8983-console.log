@@ -1,0 +1,17 @@
+2021-10-21 20:07:28.028 INFO  (main) [   ] o.e.j.u.log Logging initialized @2175ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-21 20:07:28.145 WARN  (main) [   ] o.e.j.x.XmlConfiguration Ignored arg: <Arg name="threadpool">
+    <New id="threadpool" class="com.codahale.metrics.jetty9.InstrumentedQueuedThreadPool"><Arg name="registry">
+        <Call id="solrJettyMetricRegistry" name="getOrCreate" class="com.codahale.metrics.SharedMetricRegistries"><Arg>solr.jetty</Arg></Call>
+      </Arg></New>
+  </Arg>
+2021-10-21 20:07:28.317 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 15.0.1+9-18
+2021-10-21 20:07:28.356 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/Masters/Jobs/Internship/Companies/Chemovator/patent_search_engine/solr-8.7.0/server/contexts/] at interval 0
+2021-10-21 20:07:29.202 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-10-21 20:07:29.218 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-10-21 20:07:29.218 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-10-21 20:07:29.222 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2021-10-21 20:07:29.336 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-10-21 20:07:29.346 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.7.0
+2021-10-21 20:07:29.346 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-10-21 20:07:29.346 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0
+2021-10-21 20:07:29.347 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-10-21T20:07:29.347570600Z
