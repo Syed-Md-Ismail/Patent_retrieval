@@ -1,104 +1,86 @@
-2021-10-21 20:57:38.441 INFO  (main) [   ] o.e.j.u.log Logging initialized @2203ms to org.eclipse.jetty.util.log.Slf4jLog
-2021-10-21 20:57:38.579 WARN  (main) [   ] o.e.j.x.XmlConfiguration Ignored arg: <Arg name="threadpool">
+2021-10-22 09:10:16.089 INFO  (main) [   ] o.e.j.u.log Logging initialized @6762ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-22 09:10:16.287 WARN  (main) [   ] o.e.j.x.XmlConfiguration Ignored arg: <Arg name="threadpool">
     <New id="threadpool" class="com.codahale.metrics.jetty9.InstrumentedQueuedThreadPool"><Arg name="registry">
         <Call id="solrJettyMetricRegistry" name="getOrCreate" class="com.codahale.metrics.SharedMetricRegistries"><Arg>solr.jetty</Arg></Call>
       </Arg></New>
   </Arg>
-2021-10-21 20:57:38.763 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 15.0.1+9-18
-2021-10-21 20:57:38.790 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/Masters/Jobs/Internship/Companies/Chemovator/patent_search_engine/solr-8.7.0/server/contexts/] at interval 0
-2021-10-21 20:57:39.560 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
-2021-10-21 20:57:39.578 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
-2021-10-21 20:57:39.578 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
-2021-10-21 20:57:39.584 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
-2021-10-21 20:57:39.695 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
-2021-10-21 20:57:39.706 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.7.0
-2021-10-21 20:57:39.707 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2021-10-21 20:57:39.707 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0
-2021-10-21 20:57:39.708 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-10-21T20:57:39.708444100Z
-2021-10-21 20:57:39.734 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr
-2021-10-21 20:57:39.741 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\solr.xml
-2021-10-21 20:57:39.893 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb, but no JMX reporters were configured - adding default JMX reporter.
-2021-10-21 20:57:41.092 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
-2021-10-21 20:57:41.403 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@7026b7ee[provider=null,keyStore=null,trustStore=null]
-2021-10-21 20:57:41.404 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@7026b7ee[provider=null,keyStore=null,trustStore=null]
-2021-10-21 20:57:41.606 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@45e1aa48[provider=null,keyStore=null,trustStore=null]
-2021-10-21 20:57:41.606 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@45e1aa48[provider=null,keyStore=null,trustStore=null]
-2021-10-21 20:57:41.698 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
-2021-10-21 20:57:41.949 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
-2021-10-21 20:57:41.956 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
-2021-10-21 20:57:42.094 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
-2021-10-21 20:57:42.095 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
-2021-10-21 20:57:42.104 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
-2021-10-21 20:57:42.183 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr
-2021-10-21 20:57:42.185 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [films, patent_repo]
-2021-10-21 20:57:42.288 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.7.0
-2021-10-21 20:57:42.288 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.7.0
-2021-10-21 20:57:42.608 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.IndexSchema Schema name=default-config
-2021-10-21 20:57:42.615 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.IndexSchema Schema name=default-config
-2021-10-21 20:57:43.202 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@61bcd567{/solr,file:///D:/Masters/Jobs/Internship/Companies/Chemovator/patent_search_engine/solr-8.7.0/server/solr-webapp/webapp/,AVAILABLE}{D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server/solr-webapp/webapp}
-2021-10-21 20:57:43.218 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@57ea113a{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
-2021-10-21 20:57:43.219 INFO  (main) [   ] o.e.j.s.Server Started @6985ms
-2021-10-21 20:57:43.360 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2021-10-21 20:57:43.360 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2021-10-21 20:57:43.619 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.CoreContainer Creating SolrCore 'patent_repo' using configuration from instancedir D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo, trusted=true
-2021-10-21 20:57:43.619 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films, trusted=true
-2021-10-21 20:57:43.659 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.films' (registry 'solr.core.films') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
-2021-10-21 20:57:43.659 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.patent_repo' (registry 'solr.core.patent_repo') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
-2021-10-21 20:57:43.683 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.SolrCore [[patent_repo] ] Opening new SolrCore at [D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo], dataDir=[D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo\data\]
-2021-10-21 20:57:43.683 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films], dataDir=[D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films\data\]
-2021-10-21 20:57:44.818 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2021-10-21 20:57:44.818 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2021-10-21 20:57:44.818 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2021-10-21 20:57:44.818 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2021-10-21 20:57:44.850 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
-2021-10-21 20:57:44.850 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2021-10-21 20:57:44.862 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
-2021-10-21 20:57:44.862 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2021-10-21 20:57:45.100 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films\conf
-2021-10-21 20:57:45.124 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2021-10-21 20:57:45.131 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2021-10-21 20:57:45.149 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
-2021-10-21 20:57:45.178 INFO  (searcherExecutor-16-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2021-10-21 20:57:45.179 INFO  (searcherExecutor-16-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2021-10-21 20:57:45.194 INFO  (searcherExecutor-16-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films]  Registered new searcher autowarm time: 0 ms
-2021-10-21 20:57:45.263 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo\conf
-2021-10-21 20:57:45.264 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2021-10-21 20:57:45.264 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2021-10-21 20:57:45.265 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
-2021-10-21 20:57:45.272 INFO  (searcherExecutor-17-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2021-10-21 20:57:45.272 INFO  (searcherExecutor-17-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2021-10-21 20:57:45.277 INFO  (searcherExecutor-17-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.SolrCore [patent_repo]  Registered new searcher autowarm time: 0 ms
-2021-10-21 20:57:47.994 INFO  (qtp1499840045-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=73
-2021-10-21 20:57:53.107 INFO  (qtp1499840045-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634849797410} status=0 QTime=2
-2021-10-21 20:57:53.169 INFO  (qtp1499840045-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634849797410} status=0 QTime=61
-2021-10-21 20:57:53.223 INFO  (qtp1499840045-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634849797410} status=0 QTime=47
-2021-10-21 20:57:55.327 INFO  (qtp1499840045-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634849797410} status=0 QTime=0
-2021-10-21 20:57:55.356 INFO  (qtp1499840045-18) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634849797544} status=0 QTime=20
-2021-10-21 20:57:55.357 INFO  (qtp1499840045-24) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634849797543} status=0 QTime=21
-2021-10-21 20:57:55.365 INFO  (qtp1499840045-21) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634849797410&ts=1634849797410} status=503 QTime=3
-2021-10-21 20:57:55.459 INFO  (qtp1499840045-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634849797410} status=0 QTime=130
-2021-10-21 20:57:55.474 INFO  (qtp1499840045-26) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634849797544} status=0 QTime=131
-2021-10-21 21:18:57.032 INFO  (qtp1499840045-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634851136519} status=0 QTime=47
-2021-10-21 21:18:57.035 INFO  (qtp1499840045-52) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634851136832} status=0 QTime=62
-2021-10-21 21:18:57.032 INFO  (qtp1499840045-54) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634851136522&ts=1634851136522} status=503 QTime=48
-2021-10-21 21:18:57.059 INFO  (qtp1499840045-25) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634851136831} status=0 QTime=86
-2021-10-21 21:18:57.243 INFO  (qtp1499840045-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634851136522} status=0 QTime=270
-2021-10-21 21:18:57.246 INFO  (qtp1499840045-24) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634851136831} status=0 QTime=274
-2021-10-22 05:32:07.648 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@57ea113a{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
-2021-10-22 05:32:07.649 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
-2021-10-22 05:32:07.782 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=10001825
-2021-10-22 05:32:07.812 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.c.SolrCore [films]  CLOSING SolrCore org.apache.solr.core.SolrCore@7eb4a982
-2021-10-22 05:32:07.812 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.c.SolrCore [patent_repo]  CLOSING SolrCore org.apache.solr.core.SolrCore@62a06214
-2021-10-22 05:32:07.814 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.patent_repo tag=SolrCore@62a06214
-2021-10-22 05:32:07.820 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@5741301c: rootName = null, domain = solr.core.patent_repo, service url = null, agent id = null] for registry solr.core.patent_repo/com.codahale.metrics.MetricRegistry@8582247
-2021-10-22 05:32:08.023 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.films tag=SolrCore@7eb4a982
-2021-10-22 05:32:08.023 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@683af22f: rootName = null, domain = solr.core.films, service url = null, agent id = null] for registry solr.core.films/com.codahale.metrics.MetricRegistry@281cbe0e
-2021-10-22 05:32:08.230 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
-2021-10-22 05:32:08.230 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
-2021-10-22 05:32:08.386 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
-2021-10-22 05:32:08.387 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3ad85136: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@511a0514
-2021-10-22 05:32:08.392 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
-2021-10-22 05:32:08.392 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@5c441290: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@7637d9f5
-2021-10-22 05:32:08.395 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
-2021-10-22 05:32:08.395 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3c78e551: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@28d04422
-2021-10-22 05:32:08.533 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@61bcd567{/solr,null,UNAVAILABLE}{D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server/solr-webapp/webapp}
+2021-10-22 09:10:16.635 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 15.0.1+9-18
+2021-10-22 09:10:16.690 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/Masters/Jobs/Internship/Companies/Chemovator/patent_search_engine/solr-8.7.0/server/contexts/] at interval 0
+2021-10-22 09:10:18.266 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-10-22 09:10:18.296 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-10-22 09:10:18.296 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-10-22 09:10:18.304 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-10-22 09:10:18.450 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-10-22 09:10:18.461 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.7.0
+2021-10-22 09:10:18.462 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-10-22 09:10:18.462 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0
+2021-10-22 09:10:18.463 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-10-22T09:10:18.463732800Z
+2021-10-22 09:10:18.505 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr
+2021-10-22 09:10:18.518 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\solr.xml
+2021-10-22 09:10:18.781 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb, but no JMX reporters were configured - adding default JMX reporter.
+2021-10-22 09:10:20.454 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-10-22 09:10:21.024 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@7026b7ee[provider=null,keyStore=null,trustStore=null]
+2021-10-22 09:10:21.024 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@7026b7ee[provider=null,keyStore=null,trustStore=null]
+2021-10-22 09:10:21.386 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@45e1aa48[provider=null,keyStore=null,trustStore=null]
+2021-10-22 09:10:21.386 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@45e1aa48[provider=null,keyStore=null,trustStore=null]
+2021-10-22 09:10:21.547 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-10-22 09:10:21.911 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-10-22 09:10:21.919 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-10-22 09:10:22.105 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-22 09:10:22.106 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-22 09:10:22.121 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-22 09:10:22.264 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr
+2021-10-22 09:10:22.266 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [films, patent_repo]
+2021-10-22 09:10:22.367 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.7.0
+2021-10-22 09:10:22.367 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.7.0
+2021-10-22 09:10:22.745 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.IndexSchema Schema name=default-config
+2021-10-22 09:10:22.747 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.IndexSchema Schema name=default-config
+2021-10-22 09:10:23.811 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-10-22 09:10:23.811 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-10-22 09:10:23.820 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@61bcd567{/solr,file:///D:/Masters/Jobs/Internship/Companies/Chemovator/patent_search_engine/solr-8.7.0/server/solr-webapp/webapp/,AVAILABLE}{D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server/solr-webapp/webapp}
+2021-10-22 09:10:23.842 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@57ea113a{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-10-22 09:10:23.842 INFO  (main) [   ] o.e.j.s.Server Started @14522ms
+2021-10-22 09:10:24.634 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films, trusted=true
+2021-10-22 09:10:24.634 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.CoreContainer Creating SolrCore 'patent_repo' using configuration from instancedir D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo, trusted=true
+2021-10-22 09:10:24.686 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.patent_repo' (registry 'solr.core.patent_repo') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-22 09:10:24.686 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.films' (registry 'solr.core.films') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@eadd4fb
+2021-10-22 09:10:24.717 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films], dataDir=[D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films\data\]
+2021-10-22 09:10:24.717 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.c.SolrCore [[patent_repo] ] Opening new SolrCore at [D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo], dataDir=[D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo\data\]
+2021-10-22 09:10:26.383 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-10-22 09:10:26.383 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-10-22 09:10:26.383 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-10-22 09:10:26.383 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-10-22 09:10:26.488 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-10-22 09:10:26.489 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-10-22 09:10:26.503 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-10-22 09:10:26.503 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-10-22 09:10:27.165 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\films\conf
+2021-10-22 09:10:27.204 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-10-22 09:10:27.219 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-10-22 09:10:27.244 INFO  (coreLoadExecutor-13-thread-1) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-10-22 09:10:27.277 INFO  (searcherExecutor-17-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-22 09:10:27.277 INFO  (searcherExecutor-17-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-10-22 09:10:27.296 INFO  (searcherExecutor-17-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films]  Registered new searcher autowarm time: 0 ms
+2021-10-22 09:10:27.587 INFO  (qtp1499840045-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634893827457} status=0 QTime=6
+2021-10-22 09:10:27.669 INFO  (qtp1499840045-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634893827458} status=0 QTime=89
+2021-10-22 09:10:27.721 INFO  (qtp1499840045-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=94
+2021-10-22 09:10:27.760 INFO  (qtp1499840045-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634893827458} status=0 QTime=81
+2021-10-22 09:10:27.811 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Masters\Jobs\Internship\Companies\Chemovator\patent_search_engine\solr-8.7.0\server\solr\patent_repo\conf
+2021-10-22 09:10:27.813 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-10-22 09:10:27.813 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-10-22 09:10:27.815 INFO  (coreLoadExecutor-13-thread-2) [   x:patent_repo] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-10-22 09:10:27.828 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-22 09:10:27.828 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-10-22 09:10:27.834 INFO  (searcherExecutor-16-thread-1-processing-x:patent_repo) [   x:patent_repo] o.a.s.c.SolrCore [patent_repo]  Registered new searcher autowarm time: 0 ms
+2021-10-22 09:10:53.020 INFO  (qtp1499840045-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634893827457} status=0 QTime=1
+2021-10-22 09:10:53.036 INFO  (qtp1499840045-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634893827458&ts=1634893827458} status=503 QTime=3
+2021-10-22 09:10:53.041 INFO  (qtp1499840045-25) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1634893852995} status=0 QTime=12
+2021-10-22 09:10:53.049 INFO  (qtp1499840045-23) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634893852994} status=0 QTime=22
+2021-10-22 09:10:53.167 INFO  (qtp1499840045-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634893827458} status=0 QTime=142
+2021-10-22 09:10:53.175 INFO  (qtp1499840045-46) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1634893852995} status=0 QTime=136
+2021-10-22 09:10:55.439 INFO  (qtp1499840045-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1634893827457} status=0 QTime=0
+2021-10-22 09:10:55.444 INFO  (qtp1499840045-20) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1634893852994} status=0 QTime=1
+2021-10-22 09:10:55.447 INFO  (qtp1499840045-20) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1634893827458&ts=1634893827458} status=503 QTime=0
+2021-10-22 09:10:55.449 INFO  (qtp1499840045-24) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/replication params={wt=json&command=details&_=1634893852995} status=0 QTime=5
+2021-10-22 09:10:55.550 INFO  (qtp1499840045-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1634893827458} status=0 QTime=106
+2021-10-22 09:10:55.559 INFO  (qtp1499840045-21) [   x:patent_repo] o.a.s.c.S.Request [patent_repo]  webapp=/solr path=/admin/system params={wt=json&_=1634893852995} status=0 QTime=115
