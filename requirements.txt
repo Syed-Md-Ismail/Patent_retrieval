@@ -4,3 +4,5 @@ flask==1.1.2
 wtforms==2.3.3
 flask-wtf==0.15.1
 pysolr==3.9.0
+xmltodict==0.12.0
+ftfy==5.8

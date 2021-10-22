@@ -25,8 +25,11 @@ data_tar_location = config_details.data_tar_location
 
 ################################################################################
 
+print("extract_all_tar_files_in_source_data_location")
 extract_all_tar_files_in_source_data_location(data_tar_location)
 
+print("create_xml_files_ready_to_be_inserted_into_solr")
 create_xml_files_ready_to_be_inserted_into_solr()
 
+print("insert_all_folders_of_xml_into_solr_system")
 insert_all_folders_of_xml_into_solr_system()
